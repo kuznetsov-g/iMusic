@@ -12,7 +12,7 @@ class NetworkServie {
     
     func fetchTracks(searchText: String, competion: @escaping(SearchResponse?) -> Void) {
         let url = "https://itunes.apple.com/search"
-        let parameters = ["term": "\(searchText)",
+        let parameters = [ "term": "\(searchText)",
                           "limit": "10",
                           "media": "music"]
         

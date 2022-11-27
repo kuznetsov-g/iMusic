@@ -5,11 +5,12 @@
 //  Created by Георгий Кузнецов on 13.09.2022.
 //
 
+import Foundation
 import UIKit
 
-extension UIViewController {
+extension SearchViewController {
     
-    class func loadFromStoryboard<T: UIViewController>() -> T {
+    class func loadFromStoryboard<T: SearchViewController>() -> T {
         let name = String(describing: T.self)
         let storyboard = UIStoryboard(name: name, bundle: nil)
         if let viewController = storyboard.instantiateInitialViewController() as? T {
@@ -19,3 +20,4 @@ extension UIViewController {
         }
     }
 }
+

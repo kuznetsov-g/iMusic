@@ -117,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				2CF77EEB28CC4C41005023F2 /* iMusic */,
+				2C811C9B28D0FADA0042E23F /* Helpers */,
 				2CF77EEA28CC4C41005023F2 /* Products */,
 				03CC052C79843BB6F6193644 /* Pods */,
 				0FD217FC2207CA45B4DCF047 /* Frameworks */,
@@ -141,7 +142,6 @@
 				2C811C7928D0F03C0042E23F /* Search */,
 				2CF77F0228CC4F69005023F2 /* SearchMusicViewController.swift */,
 				2CF77EF028CC4C41005023F2 /* LibraryViewController.swift */,
-				2C811C9B28D0FADA0042E23F /* Helpers */,
 				2C40E6B528CDE1DF00643933 /* SearchResponse.swift */,
 				2CF77EF228CC4C41005023F2 /* Main.storyboard */,
 				2CF77EF528CC4C44005023F2 /* Assets.xcassets */,
@@ -436,6 +436,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +466,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
